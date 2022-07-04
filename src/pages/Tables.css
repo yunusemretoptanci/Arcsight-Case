@@ -1,0 +1,35 @@
+.tables-container{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table{
+    border: 1px solid black;
+    width: 100%;
+    margin-right: 30px;
+}
+.tables{
+    display: grid;
+    gap: 50px;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+p{
+    margin: 10px;
+}
+.table div{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100%;
+    height: 20px;
+}
+.table_password{
+    border: none;
+    pointer-events: none;
+    text-align: right;
+}
